@@ -41,7 +41,8 @@ export default async function handler(req, res) {
           contacto:      tel,
           name:          nombre,
           campaign_name: campana,
-          respuesta:     fechaClick
+          respuesta:     "Clic Formulario",
+          responded:     fechaClick
         })
       });
     } catch (err) {
